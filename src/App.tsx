@@ -1,12 +1,9 @@
-import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Home from './pages/Home'
 
 const App: React.FC = () => {
   return (
-   <div>
-     <h1>
-       Hello world!
-     </h1>
-   </div>
+    <Home />
   )
 }
 
