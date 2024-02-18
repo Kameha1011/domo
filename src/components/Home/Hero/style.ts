@@ -43,18 +43,43 @@ export const HeroSection = styled.section`
     width: 80%
   }
   @media(min-width: 1024px) {
+    width: 65%
+  }
+  @media(min-width: 1440px) {
     width: 60%
+  }
+`
+export const HeroTitle = styled.h1`
+  font-size: 2.5rem;
+  @media(min-width: 768px) {
+    font-size: 3rem;
+  }
+  @media(min-width: 1024px) {
+    font-size: 4rem;
+  }
+  @media(min-width: 1440px) {
+    font-size: 5rem;
+  }
+`
+export const HeroDescription = styled.p`
+font-size: 1.25rem;
+ @media(min-width: 1024px) {
+    font-size: 1.7rem;
   }
 `
 export const HeroButton = styled(Button)`
   background-color: #ECF39E;
   border-color: #132A13;
   color: #132A13;
+  padding: 0.75rem 1.75rem;
   &:hover, :not(&-check)+&:active, &:focus-visible {
     background-color: #132A13 ;
     border-color: #ECF39E ;
     color: #ECF39E;
     box-shadow: none;
+  }
+  @media(min-width: 1024px) {
+    font-size: 1.7rem;
   }
 `
 export const HeroDivider = styled.hr`
