@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Button, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import HeroBg from '../../../assets/images/banner.jpg'
 
 // Styles are Mobile First
@@ -66,25 +66,4 @@ font-size: 1.25rem;
  @media(min-width: 1024px) {
     font-size: 1.7rem;
   }
-`
-export const HeroButton = styled(Button)`
-  background-color: #ECF39E;
-  border-color: #132A13;
-  color: #132A13;
-  padding: 0.75rem 1.75rem;
-  &:hover, :not(&-check)+&:active, &:focus-visible {
-    background-color: #132A13 ;
-    border-color: #ECF39E ;
-    color: #ECF39E;
-    box-shadow: none;
-  }
-  @media(min-width: 1024px) {
-    font-size: 1.7rem;
-  }
-`
-export const HeroDivider = styled.hr`
-  width: 30%;
-  height: 10px;
-  background: #ECF39E;
-  opacity: 1;
 `
