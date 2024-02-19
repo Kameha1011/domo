@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Button } from 'react-bootstrap'
+import { Button as BsButton, type ButtonProps } from 'react-bootstrap'
 
-export const HomeButton = styled(Button)`
+export const HomeButton = styled(BsButton)<ButtonProps>`
   background-color: #ecf39e;
   border-color: #132a13;
   color: #132a13;

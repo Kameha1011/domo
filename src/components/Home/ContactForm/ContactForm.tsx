@@ -1,7 +1,7 @@
 import Form from 'react-bootstrap/Form'
 import TextInput from '../ui/TextInput/TextInput'
-import TextArea from '../ui/TextArea/TextArea'
 import Button from '../ui/Button/Button'
+import TextArea from '../ui/TextArea/TextArea'
 const ContactForm: React.FC = () => {
   return (
     <Form className='d-flex flex-column gap-3 text-light'>
@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
         <Form.Label>Message</Form.Label>
         <TextArea name='message' placeholder="Allucard Tepes" rows={5} />
       </Form.Group>
-      <Button className='align-self-start'>Send</Button>
+      <Button>Send</Button>
     </Form>
   )
 }
