@@ -4,7 +4,7 @@ interface ServiceContainerProps {
   $isEven: boolean
 }
 
-export const ServiceContainer = styled.section`
+export const ServiceContainer = styled.section<ServiceContainerProps>`
   width: 100%;
   background-color: ${({ $isEven }: ServiceContainerProps) => ($isEven ? '#132a13' : '#31572C')};
 `
