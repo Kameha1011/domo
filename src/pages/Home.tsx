@@ -1,3 +1,4 @@
+import Footer from '../components/Home/Footer/Footer'
 import Hero from '../components/Home/Hero/Hero'
 import LinkBoxList from '../components/Home/LinkBoxes/LinkBoxList'
 import Main from '../components/Home/Main'
@@ -13,6 +14,7 @@ const Home: React.FC = () => {
         <LinkBoxList/>
         <ServiceList/>
       </Main>
+      <Footer />
     </>
   )
 }
