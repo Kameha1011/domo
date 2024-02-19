@@ -29,7 +29,7 @@ const SocialLinks: React.FC = () => {
           </a>
         </SocialLinksItem>
         <SocialLinksItem>
-          <a href="#">
+          <a href="mailto:omrflrs2001@hotmail.com">
             <LuMails className="linkIcon" />
           </a>
         </SocialLinksItem>

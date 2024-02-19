@@ -4,7 +4,7 @@ import Button from '../ui/Button/Button'
 import TextArea from '../ui/TextArea/TextArea'
 const ContactForm: React.FC = () => {
   return (
-    <Form className='d-flex flex-column gap-3 text-light'>
+    <Form className='d-flex flex-column gap-3 text-light p-3'>
       <h2>Contact Us</h2>
       <Form.Group>
         <Form.Label>Name</Form.Label>
@@ -18,7 +18,7 @@ const ContactForm: React.FC = () => {
         <Form.Label>Message</Form.Label>
         <TextArea name='message' placeholder="Allucard Tepes" rows={5} />
       </Form.Group>
-      <Button>Send</Button>
+      <Button className='align-self-start'>Send</Button>
     </Form>
   )
 }
