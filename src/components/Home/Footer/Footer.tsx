@@ -5,7 +5,7 @@ import SocialLinks from '../SocialLinks/SocialLinks'
 
 const Footer: React.FC = () => {
   return (
-    <FooterContainer className="pt-5">
+    <FooterContainer className="pt-5" id='contact'>
       <Row className="m-0 gap-3 gap-lg-0">
         <Col xs={12} lg={6}>
           <ContactForm />

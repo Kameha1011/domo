@@ -3,7 +3,7 @@ import Service from './Service/Service'
 
 const ServiceList: React.FC = () => {
   return (
-    <div>
+    <div id='services'>
       {services.map((service, index) => (
         <Service key={index} index={index} {...service} />
       ))}
