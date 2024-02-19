@@ -6,3 +6,5 @@ export interface LinkBox {
 export interface Service extends LinkBox {
   src: string
 }
+
+export type UseGoToTop = [boolean, () => void]

@@ -1,4 +1,5 @@
 import Footer from '../components/Home/Footer/Footer'
+import GoToTopButton from '../components/Home/GoToTopButton/GoToTopButton'
 import Hero from '../components/Home/Hero/Hero'
 import LinkBoxList from '../components/Home/LinkBoxes/LinkBoxList'
 import Main from '../components/Home/Main'
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
         <ServiceList/>
       </Main>
       <Footer />
+      <GoToTopButton />
     </>
   )
 }
