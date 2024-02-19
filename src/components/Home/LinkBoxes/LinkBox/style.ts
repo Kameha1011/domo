@@ -6,7 +6,7 @@ interface LinkBoxContainerProps {
 }
 interface LinkBoxIconProps extends LinkBoxContainerProps {
 }
-export const LinkBoxContainer = styled.article`
+export const LinkBoxContainer = styled.article<LinkBoxContainerProps>`
   padding: 1rem;
   background-color: ${({ $isEven }: LinkBoxContainerProps) => ($isEven ? '#132a13' : '#31572C')};
   height: 300px;
@@ -19,7 +19,7 @@ export const LinkBoxTitle = styled.h3`
 export const LinkBoxDescription = styled.p`
   font-size: 1rem;
 `
-export const LinkBoxIcon = styled(BsArrowRightSquareFill)`
+export const LinkBoxIcon = styled(BsArrowRightSquareFill)<LinkBoxIconProps>`
   font-size: 3rem;
   color: ${({ $isEven }: LinkBoxIconProps) => ($isEven ? '#90A955' : '#ecf39e')};
   border-radius: 0.5rem;
